@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\network">
+      <UniqueIdentifier>{febc268f-d9d5-4051-901b-2a7fec3cd3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\network\packets">
+      <UniqueIdentifier>{534e57d6-d0be-4a26-804f-7a94cc7336e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\network\core">
+      <UniqueIdentifier>{bcfa16d1-647a-42a0-a7d8-6393e02452b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\network\types">
+      <UniqueIdentifier>{3a45afea-1991-43b7-a181-209390e2033e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\network\services">
+      <UniqueIdentifier>{8fcb0c12-094c-4a88-b75d-e45218ef52b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\network">
+      <UniqueIdentifier>{34ff64f5-3d13-4991-ad59-dd0a283cf0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\network\core">
+      <UniqueIdentifier>{73ead94d-e46a-4752-b3ae-8b03ac5489a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\network\services">
+      <UniqueIdentifier>{7d411df3-9646-4bfd-80f1-11a317153d84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wfccpp.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="udp_client_server.cpp">
+      <Filter>Quelldateien\network\core</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPManager.cpp">
+      <Filter>Quelldateien\network\core</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPPacket.cpp">
+      <Filter>Quelldateien\network\core</Filter>
+    </ClCompile>
+    <ClCompile Include="QSService.cpp">
+      <Filter>Quelldateien\network\services</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QSServicePackets.h">
+      <Filter>Headerdateien\network\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPPacket.h">
+      <Filter>Headerdateien\network\core</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPManager.h">
+      <Filter>Headerdateien\network\core</Filter>
+    </ClInclude>
+    <ClInclude Include="udp_client_server.h">
+      <Filter>Headerdateien\network\core</Filter>
+    </ClInclude>
+    <ClInclude Include="le_types.h">
+      <Filter>Headerdateien\network\types</Filter>
+    </ClInclude>
+    <ClInclude Include="QSService.h">
+      <Filter>Headerdateien\network\services</Filter>
+    </ClInclude>
+    <ClInclude Include="IService.h">
+      <Filter>Headerdateien\network\services</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
